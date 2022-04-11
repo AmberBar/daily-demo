@@ -1,0 +1,12 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: rabbitmq-producer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    publisher-returns: true
