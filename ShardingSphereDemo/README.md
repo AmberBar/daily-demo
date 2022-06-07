@@ -22,3 +22,6 @@ product_order表和product_order_item表，均按照order_id分片
 ```yaml
 spring.shardingsphere.sharding.binding-tables[0] = product_order,product_order_item
 ```
+
+# 常见的分片算法
+## 精准分片 StandardShardingStrategy

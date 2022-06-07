@@ -4,7 +4,7 @@ import java.io.*;
 import java.nio.file.Files;
 
 public class UserDefineClassLoader extends ClassLoader {
-    private static final String ROOT_PATH = "D:\\amberspace\\ClassLoaderDemo\\target\\classes\\";
+    private static final String ROOT_PATH = "D:\\amberspace\\daily-demo\\ClassLoaderDemo\\target\\classes\\";
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
