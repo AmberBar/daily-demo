@@ -20,5 +20,5 @@ spring.shardingsphere.sharding.tables.ad_config.key-generator.type=SNOWFLAKE
 ## 绑定表
 product_order表和product_order_item表，均按照order_id分片
 ```yaml
-
+spring.shardingsphere.sharding.binding-tables[0] = product_order,product_order_item
 ```
